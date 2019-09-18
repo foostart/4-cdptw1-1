@@ -1,0 +1,53 @@
+.type-4 {
+  padding: 10px 0;
+}
+.type-4 .sidebar-nav .well {
+  padding: 0;
+  background: #fff;
+  color: #fff;
+}
+.type-4 .sidebar-nav .well .nav-header {
+  font-size: 25px;
+  color: #fff;
+  margin: 0;
+  padding: 13px;
+  background: #59b210;
+}
+.type-4 .sidebar-nav .well .nav-list {
+  padding: 0;
+}
+.type-4 .sidebar-nav .well .nav-list li {
+  border-bottom: 1px solid #eaeaea;
+}
+.type-4 .sidebar-nav .well .nav-list li a {
+  padding: 13px 15px;
+  font-size: 16px;
+  color: #555;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+.type-4 .sidebar-nav .well .nav-list li a span.badge-info {
+  background: #59b210;
+}
+.type-4 .sidebar-nav .well .nav-list li.active a {
+  background: #59b210;
+  color: #fff;
+}
+.type-4 .sidebar-nav .well .nav-list li:focus {
+  background: #59b210;
+  color: #fff;
+}
+.type-4 .sidebar-nav .well .nav-list li:hover a {
+  background: #59b210;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .type-4 {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 1280px) {
+  .type-4 {
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,64 @@
+@font-header: 25px;
+@font-text: 16px;
+@color-text: #555;
+@color-text-hover:#fff;
+@color-header: #fff;
+@highlight:#59b210;
+@background:#fff;
+.type-4{
+padding:10px 0;
+.sidebar-nav{
+.well{
+padding:0;
+background:@background;
+color:@color-header;
+.nav-header{
+font-size:@font-header;
+color:@color-header;
+margin:0;
+padding:13px;
+background:@highlight;
+}
+.nav-list{
+padding:0;
+li{
+border-bottom:1px solid  #eaeaea;
+a{
+padding:13px 15px;
+font-size:@font-text;
+color:@color-text;
+letter-spacing: 0.2px;
+margin:0;
+span{
+&.badge-info{
+background:@highlight;
+}
+}
+}
+&.active a{
+background:@highlight;
+color:@color-text-hover;
+}
+&:focus {
+background:@highlight;
+color:@color-text-hover;
+}
+&:hover a{
+background:@highlight;
+color:@color-text-hover;	
+}
+}
+}
+}
+}
+}
+@media (max-width: 768px) {
+.type-4{
+padding:10px 0;
+}
+}
+@media (max-width: 1280px) {
+.type-4{
+padding:10px 0;
+}
+}
