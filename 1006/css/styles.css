@@ -1,130 +1,134 @@
-.type-21 .pagination li a {
-  color: #888888;
-}
-.type-21 .pagination-full {
-  margin-top: 66px;
-  border: 2px solid #444444;
-}
-.type-21 .pagination-full .pagination {
-  margin: 8px 10px 5px 28px;
-}
-.type-21 .pagination-full .pagination li a {
-  border: none;
-  padding: 6px 11px;
-  text-transform: uppercase;
-}
-.type-21 .pagination-full .pagination li:last-child a {
-  border-right: 1px solid #cccccc;
-  padding-right: 17px;
-}
-.type-21 .pagination-full .pagination-add {
-  margin: 8px 28px 5px 0;
-  float: right;
-}
-.type-21 .pagination-full .pagination-add li a {
-  padding: 6px 23px;
-}
-.type-21 .pagination-full .pagination-add li:last-child a {
-  border-right: none;
-  border-left: 1px solid #cccccc;
-  padding-right: 11px;
-  padding-left: 17px;
-}
-.type-21 .pagination>li>a:focus,
-.type-21 .pagination>li>a:hover,
-.type-21 .pagination>li>span:focus,
-.type-21 .pagination>li>span:hover {
-  background: red;
-}
-.type-21 .nav-tabs {
-  float: right;
+.type-21 .all-products .nav.nav-tabs {
   border-bottom: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.type-21 .nav-tabs .orderby {
-  margin-top: 11px;
+.type-21 .all-products .nav.nav-tabs li a:hover {
+  background-color: transparent !important;
 }
-.type-21 .nav-tabs .orderby .slect {
-  padding: 10px;
-}
-.type-21 .nav-tabs .fa {
+.type-21 .all-products .nav.nav-tabs li a .fa {
   border: 1px solid #444444;
   padding: 13px;
   background: #444444;
   color: #fff;
 }
-.type-21 .nav-tabs .fa .fa-shopping-bag,
-.type-21 .nav-tabs .fa .fa-heart-o,
-.type-21 .nav-tabs .fa .fa-eye {
+.type-21 .all-products .nav.nav-tabs li a .fa.fa-shopping-bag,
+.type-21 .all-products .nav.nav-tabs li a .fa .fa-heart-o,
+.type-21 .all-products .nav.nav-tabs li a .fa .fa-eye {
   color: #5C5B50;
 }
-.type-21 .pri {
-  color: #CBCBCB;
-}
-.type-21 .icon-fax {
-  float: right;
-  position: relative;
-  top: -34px;
-}
-.type-21 .icon-fax .fa-shopping-bag,
-.type-21 .icon-fax .fa-heart-o,
-.type-21 .icon-fax .fa-eye {
-  color: #5C5B50;
-  border: 1px solid #245456;
+.type-21 .all-products .nav.nav-tabs li.orderby .slect {
   padding: 10px;
 }
-.type-21 .money {
-  color: #E24545;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-left: 10px;
+.type-21 .all-products .nav.nav-tabs li:hover a {
+  cursor: pointer;
 }
-.type-21 .chu4 {
-  margin: 11px 20px 127px;
+.type-21 .all-products .nav.nav-tabs li:hover a i {
+  opacity: 0.6;
 }
-.type-21 .lesge {
-  width: 70%;
-  margin-left: -31px;
+.type-21 .all-products .nav.nav-tabs li.active a i {
+  opacity: 0.6;
 }
-.type-21 .fa:hover {
-  background: #E24545;
-}
-.type-21 .chu1 {
-  color: black;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-.type-21 del {
-  color: #CBCBCB;
-}
-.type-21 .gia {
-  color: #E24545;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-.type-21 .item img {
-  width: 100%;
-}
-.type-21 .protducts {
-  margin-top: 10px;
-}
-.type-21 .item {
-  border: 1px solid #EEEEEE;
-}
-.type-21 .chu2 {
-  text-align: center;
-}
-.type-21 .chu2 .fa {
-  border: 1px solid #EEEEEE;
-  padding: 5px;
-}
-.type-21 .tab-content {
+.type-21 .all-products .tab-content {
   padding-top: 40px;
 }
-.type-21 .nav-tabs>li.active>a,
-.type-21 .nav-tabs>li.active>a:focus,
-.type-21 .nav-tabs>li.active>a:hover {
+.type-21 .all-products .tab-content #list .products {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.type-21 .all-products .tab-content #list .products .item {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+.type-21 .all-products .tab-content #list .products .item img {
+  width: 100%;
+}
+.type-21 .all-products .tab-content #list .products .item .chu2 {
+  text-align: left;
+}
+.type-21 .all-products .tab-content #list .products .item .chu2 .chu1 {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.type-21 .all-products .tab-content #list .products .item .chu2 del {
+  color: #CBCBCB;
+}
+.type-21 .all-products .tab-content #list .products .item .chu2 .gia {
+  color: #E24545;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.type-21 .all-products .tab-content #list .products .item .chu2 .description {
+  margin: 15px 0;
+}
+.type-21 .all-products .tab-content #list .products .item .chu2 .icon-fa i {
+  padding: 5px !important;
+  border: 1px solid #ccc;
+}
+.type-21 .all-products .tab-content #list .products .item .chu2 .icon-fa i.fa:hover {
+  background: #E24545;
+}
+.type-21 .all-products .tab-content #gird .products {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.type-21 .all-products .tab-content #gird .products .item {
+  padding: 10px 0;
+  border: 1px solid #ccc;
+}
+.type-21 .all-products .tab-content #gird .products .item img {
+  width: 100%;
+}
+.type-21 .all-products .tab-content #gird .products .item .chu2 {
+  text-align: center;
+}
+.type-21 .all-products .tab-content #gird .products .item .chu2 .chu1 {
+  color: black;
+  font-weight: bold;
+  font-size: 21px;
+}
+.type-21 .all-products .tab-content #gird .products .item .chu2 del {
+  color: #CBCBCB;
+}
+.type-21 .all-products .tab-content #gird .products .item .chu2 .gia {
+  color: #E24545;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.type-21 .all-products .tab-content #gird .products .item .chu2 .icon-fa i {
+  padding: 5px !important;
+  border: 1px solid #ccc;
+}
+.type-21 .all-products .tab-content #gird .products .item .chu2 .icon-fa i.fa:hover {
+  background: #E24545;
+}
+.type-21 .all-products .nav-tabs>li.active>a,
+.type-21 .all-products .nav-tabs>li.active>a:focus,
+.type-21 .all-products .nav-tabs>li.active>a:hover {
   border: none;
 }
-.type-21 .nav-tabs>li>a {
+.type-21 .all-products .nav-tabs>li>a {
   border: none;
+}
+@media (max-width: 768px) {
+  .type-21 .tab-content #list .products .item {
+    display: initial !important;
+    border: none !important;
+  }
+  .type-21 .all-products .tab-content #list .products .item .chu2 {
+    text-align: center !important;
+  }
+  .type-21 .all-products .nav.nav-tabs li:hover a {
+    cursor: pointer;
+  }
+}
+@media (max-width: 1024px) {
+  .type-21 .all-products .nav.nav-tabs li:hover a {
+    cursor: pointer;
+  }
 }

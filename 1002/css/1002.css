@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .module-1002 .col-md-4 {
+    margin-bottom: 20px;
+  }
+  .module-1002 .col-md-4:last-child {
+    margin-bottom: 0px;
+  }
+}

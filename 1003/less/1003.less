@@ -1,0 +1,122 @@
+@highlight: red;
+@price:#A4A4A4;
+@highlight-2:#BDBDBD;
+@border-color:#969696;
+.module-1003{
+	.mb-20{margin-bottom:20px}
+	.row{
+		margin-left:-15px;
+		margin-right:-15px;
+		.header{
+			margin:0 -50px;
+			h2{
+				margin:0 20px;
+			}
+			hr{
+				color:@highlight;
+				background:@highlight;
+				height:1px;
+			}
+		}
+		.products-tab{
+			.products-tab-header{
+				border:none;
+				li{
+					background:@highlight-2;
+					border:1px solid @border-color;
+					display: inline-block;
+					margin-right:5px;
+						a{
+							display: inline-block;
+							padding: 6px 12px;
+							margin-bottom: 0;
+							font-size: 14px;
+							font-weight: 400;
+							line-height: 1.42857143;
+							text-align: center;
+							white-space: nowrap;
+							vertical-align: middle;
+							-ms-touch-action: manipulation;
+							touch-action: manipulation;
+							cursor: pointer;
+							-webkit-user-select: none;
+							-moz-user-select: none;
+							-ms-user-select: none;
+							user-select: none;
+							background-image: none;
+							border: 1px solid transparent;
+							text-transform: uppercase;
+						}
+						&.active{
+							a{
+								background:transparent;
+							}
+						}
+						&:hover{
+							background:transparent;
+						}
+				}
+			}
+			.tab-content{
+				overflow: hidden;
+				.product-item{
+					margin: 1% 1% 1% 1%;
+					padding:20px;
+					box-shadow: 0px 0px 3px @border-color;
+					-webkit-box-shadow: 0px 0px 3px @border-color;
+					-moz-box-shadow: 0px 0px 3px @border-color;
+					-o-box-shadow: 0px 0px 3px @border-color;
+					.content-container{
+						text-align:center;
+						.product-title{
+							font-weight:700;
+							color: #000000;
+							font-family: 'ambleregular';
+							font-size: 1.1em;
+						}
+						.product-price{
+							font-size: 18px;
+							font-family: 'ambleregular';
+							color: #A4A4A4;
+							font-weight:700;
+							.price-compare{
+								color:@price;
+							}
+							.price-sale{
+								color:@highlight;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+.module-1003{
+		.header{
+			margin:0px!important;
+			h2{
+				margin:0px !important;
+			}
+		}
+
+		.products-tab
+		{
+			.products-tab-header{
+				li{
+					max-width:100%;
+					width:100%;
+				}
+			} 
+			.tab-content{
+				.tab-pane {
+					.product-item{
+						margin-bottom:20px;
+					}
+				}
+			}
+		} 
+	}
+}

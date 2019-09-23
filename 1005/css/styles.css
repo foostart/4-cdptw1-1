@@ -1,21 +1,24 @@
-.type-23 .chu {
-  margin: 0;
-  font-weight: bold;
+.type-23 .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.type-23 #demos .owl-carousel .item:hover {
+.type-23 .item:hover {
   background: #E24545;
 }
-.type-23 #demos .owl-carousel .item:hover .chu {
+.type-23 .item:hover .chu {
   color: #fff;
+}
+.type-23 .item .chu {
+  margin: 0;
+  font-weight: bold;
 }
 .type-23 .owl-nav {
   position: relative;
   top: -50px;
   float: right;
   margin-right: -80px;
-}
-.type-23 .bran {
-  margin-left: 50px;
+  margin-top: 5px !important;
 }
 .type-23 .chu1 {
   position: relative;
@@ -33,6 +36,46 @@
 .type-23 .chu1 .chu2 {
   margin-top: 30px;
 }
+.type-23 .chu1 .chu2 .bran {
+  margin-left: 0px;
+  color: #000;
+}
 .type-23 .large-12 {
   margin-top: -25px;
+}
+@media (max-width: 991px) {
+  .type-23 .row {
+    border: 1px solid ;
+  }
+  .type-23 .row .chu1 {
+    position: initial;
+    top: 0;
+    margin-left: 0;
+    border: none;
+    height: auto;
+    width: 100%;
+  }
+  .type-23 .row .bran {
+    margin-left: 0px;
+  }
+  .type-23 .row .owl-nav {
+    position: absolute;
+    top: -100%;
+    float: right;
+    margin-right: 0px;
+    right: 0;
+    display: block !important;
+  }
+  .type-23 .row .owl-nav div {
+    margin: 0 !important;
+  }
+}
+@media (max-width: 1024px) {
+  .type-23 .chu1 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .type-23 .owl-nav {
+    display: none;
+  }
 }
