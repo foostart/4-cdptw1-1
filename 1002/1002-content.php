@@ -15,14 +15,15 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="module-1002">
 	<div class="container">
 		<div class="row mb-20">
-			<?php for ($i = 1; $i <= 3; $i++) {
-				?>
 				<div class="col-md-4">
-					<img src="http://<?php echo $url_path ?>/images/rowb-<?php echo $i ?>.jpg">
-				</div>
-				<?php 
-			}
-			?>   
+					<img src="images/rowb-1.jpg" alt="hinh">
+				</div>	
+				<div class="col-md-4">
+					<img src="images/rowb-2.jpg" alt="hinh">
+				</div>	
+				<div class="col-md-4">
+					<img src="images/rowb-3.jpg" alt="hinh">
+				</div>	
 		</div>
 	</div>
 </div>

@@ -36,7 +36,7 @@ $url_path = str_replace('\\', '/', $url_path);
 					<div id="gird" class="tab-pane fade in active">
 						<div class="col-md-4 products">
 							<div class="item">
-								<a href="#"><img src="images/1.jpg"></a>
+								<a href="#"><img src="images/1.jpg" alt="anh"></a>
 								<div class="chu2">
 									<a href="#" class="chu1">APPLE IPHONE 6S PLUS</a><br>
 									<del>£600.00 </del> <strong class="gia"> £560.00</strong>
@@ -52,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 						<div class="col-md-4 products">
 							<div class="item">
-								<a href="#"><img src="images/7.jpg" ></a>
+								<a href="#"><img src="images/7.jpg" alt="anh"></a>
 								<div class="chu2">
 									<a href="#" class="chu1">BLU VIVO 5 SMARTPHONE</a><br>
 									<strong class="gia"> £875.00</strong>
@@ -67,7 +67,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						</div>
 						<div class="col-md-4 products">
 							<div class="item">
-								<a href="#"><img src="images/3.jpg" ></a>
+								<a href="#"><img src="images/3.jpg" alt="anh"></a>
 								<div class="chu2">
 									<a href="#" class="chu1">HUAWEI NEXUS 6P</a><br>
 									<strong class="gia"> £875.00</strong>
@@ -86,7 +86,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						<div class="col-md-12 products">
 							<div class="item">
 								<div class="col-md-4">
-									<a href="#"><img src="images/1.jpg"></a>
+									<a href="#"><img src="images/1.jpg" alt="anh"></a>
 								</div>
 								<div class="col-md-8">
 									<div class="chu2">
@@ -114,7 +114,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						<div class="col-md-12 products">
 							<div class="item">
 								<div class="col-md-4">
-									<a href="#"><img src="images/1.jpg"></a>
+									<a href="#"><img src="images/1.jpg" alt="anh"></a>
 								</div>
 								<div class="col-md-8">
 									<div class="chu2">
@@ -142,7 +142,7 @@ $url_path = str_replace('\\', '/', $url_path);
 						<div class="col-md-12 products">
 							<div class="item">
 								<div class="col-md-4">
-									<a href="#"><img src="images/1.jpg"></a>
+									<a href="#"><img src="images/1.jpg" alt="anh"></a>
 								</div>
 								<div class="col-md-8">
 									<div class="chu2">
