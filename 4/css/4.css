@@ -40,6 +40,12 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+.type-4 .all-departments-menu >ul >li >a i {
+  margin-right: 10px;
+}
+.type-4 .all-departments-menu >ul >li >a .badge-info {
+  background: red;
+}
 .type-4 .all-departments-menu >ul >li:hover >a {
   color: red;
 }

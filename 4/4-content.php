@@ -23,7 +23,7 @@ $url_path = str_replace('\\', '/', $url_path);
 					</div>
 					<ul class="clearfix">
 						<li class="menu-item-has-children has-mega-menu">
-							<a href="#!"> Dashboard</a>
+							<a href="#!"><i class="icon-home"></i>Dashboard</a>
 							<ul class="mega-menu clearfix" style="background-image: url(images/1.jpg);">
 								<li>
 									<span class="title-text color-gplus-red mb-30">FAQ's</span>
@@ -62,11 +62,11 @@ $url_path = str_replace('\\', '/', $url_path);
 								</li>
 							</ul>
 						</li>
-						<li ><a href="#!">Messages </a></li>
-						<li ><a href="#!"> Comments </a></li>
-						<li><a href="#!">  Settings</a></li>
-						<li><a href="#!">Logout</a></li>
-						<li><a href="#!">About</a></li>
+						<li ><a href="#!"><i class="icon-envelope"></i>Messages <span class="badge badge-info">10</span> </a></li>
+						<li ><a href="#!"> <i class="icon-comment"></i>Comments <span class="badge badge-info">4</span></a></li>
+						<li><a href="#!">  <i class="icon-user"></i>Settings</a></li>
+						<li><a href="#!"><i class="icon-share"></i>Logout</a></li>
+						
 					</ul>
 				</div>
 			</div>
