@@ -14,20 +14,60 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="container">
 	<div class="row">
-		<div class="col-md-3 col-sm-12 col-xs-12">
+		<div class="col-lg-3 col-md-6 col-sm-12">
 			<div class="type-4">
-				<div class="sidebar-nav">
-					<div class="well">
-						<div class="nav-header"> <i class="icon fa fa-align-justify fa-fw"></i>Admin Menu</div>   
-						<ul class="nav nav-list">      
-							<li><a href="index"><i class="icon-home"></i> Dashboard</a></li>
-							<li><a href="#"><i class="icon-envelope"></i> Messages <span class="badge badge-info">4</span></a></li>
-							<li><a href="#"><i class="icon-comment"></i> Comments <span class="badge badge-info">10</span></a></li>
-							<li class="active"><a href="#"><i class="icon-user"></i> Members</a></li>
-							<li><a href="#"><i class="icon-comment"></i> Settings</a></li>
-							<li><a href="#"><i class="icon-share"></i> Logout</a></li>
-						</ul>
+				<div class="all-departments-menu clearfix">
+					<div class="title-text bg-gplus-red">
+						<i class="flaticon-bulleted-list"></i> 
+						Admin Menu
 					</div>
+					<ul class="clearfix">
+						<li class="menu-item-has-children has-mega-menu">
+							<a href="#!"> Dashboard</a>
+							<ul class="mega-menu clearfix" style="background-image: url(images/1.jpg);">
+								<li>
+									<span class="title-text color-gplus-red mb-30">FAQ's</span>
+									<ul class="menu-item-list clearfix">
+										<li><a href="#!">How do I install XAMPP?</a></li>
+										<li><a href="#!">Does XAMPP include MySQL or MariaDB?</a></li>
+										<li><a href="#!">How can I start XAMPP without setup?</a></li>
+										<li><a href="#!">How do I start and stop XAMPP?</a></li>
+										<li><a href="#!">How can I test that everything worked?</a></li>
+										
+										
+									</ul>
+								</li>
+
+								<li>
+									<span class="title-text color-gplus-red mb-30">PHPINFO</span>
+									<ul class="menu-item-list clearfix">
+										<li><a href="#!">Php info</a></li>
+										<li><a href="#!">Php info</a></li>
+										<li><a href="#!">Php info</a></li>
+										<li><a href="#!">Php info</a></li>
+										<li><a href="#!">Php info</a></li>
+										<li><a href="#!">Php info</a></li>
+									</ul>
+								</li>
+
+								<li>
+									<span class="title-text color-gplus-red mb-30">PHPMYADMIN</span>
+									<ul class="menu-item-list clearfix">
+										<li><a href="#!">Phpmyadmin</a></li>
+										<li><a href="#!">Phpmyadmin</a></li>
+										<li><a href="#!">Phpmyadmin</a></li>
+										<li><a href="#!">Phpmyadmin</a></li>
+										<li><a href="#!">Phpmyadmin</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li ><a href="#!">Messages </a></li>
+						<li ><a href="#!"> Comments </a></li>
+						<li><a href="#!">  Settings</a></li>
+						<li><a href="#!">Logout</a></li>
+						<li><a href="#!">About</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>

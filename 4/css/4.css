@@ -1,49 +1,128 @@
-.type-4 {
-  padding: 10px 0;
+.type-4 .bg-gplus-red {
+  background: red;
 }
-.type-4 .sidebar-nav .well {
-  padding: 0;
-  background: #fff;
-  color: #fff;
+.type-4 .color-gplus-red {
+  color: red;
 }
-.type-4 .sidebar-nav .well .nav-header {
-  font-size: 25px;
-  color: #fff;
-  margin: 0;
-  padding: 13px;
-  background: #59b210;
+.type-4 .all-departments-menu {
+  box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.1);
+  background-color: #fff;
 }
-.type-4 .sidebar-nav .well .nav-list {
-  padding: 0;
-}
-.type-4 .sidebar-nav .well .nav-list li {
-  border-bottom: 1px solid #eaeaea;
-}
-.type-4 .sidebar-nav .well .nav-list li a {
-  padding: 13px 15px;
+.type-4 .all-departments-menu >.title-text {
+  width: 100%;
+  height: 50px;
   font-size: 16px;
-  color: #555;
-  letter-spacing: 0.2px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.type-4 .all-departments-menu >ul {
+  margin: 0px;
+  padding: 15px;
+}
+.type-4 .all-departments-menu >ul >li {
+  width: 100%;
+  display: table;
+  list-style: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+.type-4 .all-departments-menu >ul >li >a {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.type-4 .all-departments-menu >ul >li:hover >a {
+  color: red;
+}
+.type-4 .all-departments-menu >ul >li:last-child {
+  border-bottom: none;
+}
+.type-4 .all-departments-menu >ul >.menu-item-has-children >a {
+  position: relative;
+}
+.type-4 .all-departments-menu >ul >.menu-item-has-children >a:after {
+  right: 0;
+  top: 11px;
+  content: '\f054';
+  font-weight: 900;
+  position: absolute;
+  font-family: 'Font Awesome 5 Free';
+}
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu {
+  position: relative;
+}
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu >.mega-menu {
+  margin: 0;
+  background: #fff;
+  top: 0;
+  left: 240px;
+  opacity: 0;
+  width: 1000px;
+  z-index: 999;
+  height: auto;
+  padding: 15px;
+  visibility: hidden;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all .3s ease-in-out;
+  background-position: center center;
+  box-shadow: 0px 3px 9px 1px rgba(0,0,0,0.1);
+}
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu >.mega-menu >li {
+  width: 25%;
+  float: left;
+  margin: 0px;
+  padding: 15px;
+  display: inline-block;
+}
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu >.mega-menu >li .title-text {
+  margin-bottom: 20px;
+  width: 100%;
+  display: table;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu >.mega-menu >li >.menu-item-list {
+  padding: 0px;
   margin: 0;
 }
-.type-4 .sidebar-nav .well .nav-list li a span.badge-info {
-  background: #59b210;
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu >.mega-menu >li >.menu-item-list >li {
+  width: 100%;
+  display: table;
+  margin-bottom: 8px;
+  text-decoration: none;
 }
-.type-4 .sidebar-nav .well .nav-list li.active a {
-  background: #59b210;
-  color: #fff;
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu >.mega-menu >li >.menu-item-list >li:last-child {
+  margin-bottom: 0px;
 }
-.type-4 .sidebar-nav .well .nav-list li:focus {
-  background: #59b210;
-  color: #fff;
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu >.mega-menu >li >.menu-item-list >li >a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ccc;
+  text-transform: capitalize;
 }
-.type-4 .sidebar-nav .well .nav-list li:hover a {
-  background: #59b210;
-  color: #fff;
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu >.mega-menu >li >.menu-item-list >li >a:hover {
+  color: red;
 }
-@media (max-width: 768px) {
-  .type-4 {
-    padding: 10px 0;
+.type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+}
+@media (max-width: 991px) {
+  .type-4 .all-departments-menu >ul .menu-item-has-children.has-mega-menu >.mega-menu {
+    left: 0 !important;
+    width: 100% !important;
   }
 }
 @media (max-width: 1280px) {
