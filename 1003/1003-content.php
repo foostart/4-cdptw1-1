@@ -487,14 +487,6 @@ $url_path = str_replace('\\', '/', $url_path);
       </div>
     </div>
   </div>
-  <script>
-    $(function () {
-      $('#myTab a').click(function (e) {
-        e.preventDefault();
-        $(this).tab('show');
-      })
-    })
-  </script>
 </div>
 </div>
 </div>

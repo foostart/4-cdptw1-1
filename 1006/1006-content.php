@@ -157,7 +157,7 @@ $url_path = str_replace('\\', '/', $url_path);
 											iPad Mini 7.9 inch Wifi Cellular 64GB (2019) đánh dấu sự trở lại mạnh mẽ của Apple trong phân khúc máy tính bảng nhỏ gọn, có thể dễ dàng mang theo bên mình.
 											Hiệu năng mạnh mẽ hàng đầu
 										iPad Mini 7.9 inch Wifi Cellular 64GB (2019) được Apple trang bị hiệu năng rất ấn tượng với con chip Apple A12 cùng RAM 3 GB và 64 GB bộ nhớ trong.</p></div>
-										<div class="clearfix"></div>
+										
 										<div class="icon-fa">
 											<i class="fa fa-eye" aria-hidden="true"></i>
 											<i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -167,18 +167,9 @@ $url_path = str_replace('\\', '/', $url_path);
 								</div>
 							</div>
 						</div>
-						<div class="clearfix"></div>
 					</div>
 				</div>
 			</div>
 		</div>  
 	</div>
 </div>
-<script>
-	$(function () {
-		$('#myTab a').click(function (e) {
-			e.preventDefault();
-			$(this).tab('show');
-		})
-	})
-</script>

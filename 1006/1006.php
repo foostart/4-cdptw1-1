@@ -13,7 +13,7 @@ require_once($dir_block . '/libs/lessc.inc.php');
 }
 
 $less = new lessc;
-$less->compileFile('less/styles.less', 'css/styles.less');
+$less->compileFile('less/1006.less', 'css/1006.less');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,15 +25,15 @@ $less->compileFile('less/styles.less', 'css/styles.less');
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/1006.less', 'css/1006.css');
         ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="<?php echo $url_path ?>/css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/1006.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>   
         <script src="<?php echo $url_path ?>/js/jquery.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" type="text/javascript"></script>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/scripst.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/1006.js" type="text/javascript"></script>
     </head>
     <body>
         <?php include './1006-content.php'; ?>

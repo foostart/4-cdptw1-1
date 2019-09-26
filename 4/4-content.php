@@ -33,8 +33,6 @@ $url_path = str_replace('\\', '/', $url_path);
 										<li><a href="#!">How can I start XAMPP without setup?</a></li>
 										<li><a href="#!">How do I start and stop XAMPP?</a></li>
 										<li><a href="#!">How can I test that everything worked?</a></li>
-										
-										
 									</ul>
 								</li>
 

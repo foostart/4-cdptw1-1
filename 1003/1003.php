@@ -23,9 +23,11 @@ $less->compileFile('less/1003.less', 'css/1003.css');
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo $url_path ?>/css/1003.css" rel="stylesheet" type="text/css" />
-<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="<?php echo $url_path ?>/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
+
+<script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
 <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+<script src="<?php echo $url_path ?>/js/1003.js"></script>
 <?php
 if (!class_exists('lessc')) {
   include ('./libs/lessc.inc.php');

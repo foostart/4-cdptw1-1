@@ -23,9 +23,8 @@ $less->compileFile('less/4.less', 'css/4.css');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/4.css" rel="stylesheet" type="text/css" />
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="<?php echo $url_path ?>/css/fontawesome-all.css" rel="stylesheet" type="text/css"/>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/jquery-3.3.1.min.js"></script>
 
     <?php
     if (!class_exists('lessc')) {

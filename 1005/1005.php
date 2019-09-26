@@ -13,7 +13,7 @@ require_once($dir_block . '/libs/lessc.inc.php');
 }
 
 $less = new lessc;
-$less->compileFile('less/styles.less', 'css/styles.less');
+$less->compileFile('less/1005.less', 'css/1005.less');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,14 +25,13 @@ $less->compileFile('less/styles.less', 'css/styles.less');
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/styles.less', 'css/styles.css');
+        $less->compileFile('less/1005.less', 'css/1005.css');
         ?>
-        <link href="<?php echo $url_path ?>/css/styles.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/1005.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/docs.theme.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
-        
         <script src="<?php echo $url_path ?>/js/jquery.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/owl.carousel.js" type="text/javascript"></script>
     </head>
