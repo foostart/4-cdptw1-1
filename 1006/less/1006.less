@@ -2,12 +2,11 @@
 @title-font-size:24px;
 .type-21{
 	.all-products{
-		.nav.nav-tabs{
+		.nav-tabs{
 			border-bottom: none;
 			display: flex;
 			align-items: center;
 			justify-content: flex-end;
-
 				li{
 					a{
 						&:hover{
@@ -131,11 +130,30 @@
 				}
 			}
 		}
-		.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-			border:none;
+		
+		nav-tabs{
+		li{
+		&.active{
+		a{
+		border:none;
+		&:focus{
+		border:none;
 		}
-		.nav-tabs>li>a{
+		}
+		a{
+		&:hover{
+		border:none;
+		}
+		}
+		}
+		}
+		}
+		.nav-tabs{
+		li{
+		a{
 		border:none
+		}
+		}
 		}
 	}
 }
@@ -147,12 +165,12 @@
 	.type-21 .all-products .tab-content #list .products .item .chu2{
 		text-align:center !important;
 	}	
-	.type-21 .all-products .nav.nav-tabs li:hover a{
+	.type-21 .all-products li:hover a{
 		cursor:pointer;
 	}
 }
 @media (max-width: 1024px) {
-	.type-21 .all-products .nav.nav-tabs li:hover a{
+	.type-21 .all-products li:hover a{
 		cursor:pointer;
 	}
 }

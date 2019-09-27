@@ -18,7 +18,6 @@ $url_path = str_replace('\\', '/', $url_path);
 			<div class="type-4">
 				<div class="all-departments-menu clearfix">
 					<div class="title-text bg-gplus-red">
-						<i class="flaticon-bulleted-list"></i> 
 						Admin Menu
 					</div>
 					<ul class="clearfix">
@@ -26,7 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
 							<a href="#!"><i class="icon-home"></i>Dashboard</a>
 							<ul class="mega-menu clearfix" style="background-image: url(images/1.jpg);">
 								<li>
-									<span class="title-text color-gplus-red mb-30">FAQ's</span>
+									<span class="title-text color-gplus-red">FAQ's</span>
 									<ul class="menu-item-list clearfix">
 										<li><a href="#!">How do I install XAMPP?</a></li>
 										<li><a href="#!">Does XAMPP include MySQL or MariaDB?</a></li>
@@ -37,7 +36,7 @@ $url_path = str_replace('\\', '/', $url_path);
 								</li>
 
 								<li>
-									<span class="title-text color-gplus-red mb-30">PHPINFO</span>
+									<span class="title-text color-gplus-red">PHPINFO</span>
 									<ul class="menu-item-list clearfix">
 										<li><a href="#!">Php info</a></li>
 										<li><a href="#!">Php info</a></li>
@@ -49,7 +48,7 @@ $url_path = str_replace('\\', '/', $url_path);
 								</li>
 
 								<li>
-									<span class="title-text color-gplus-red mb-30">PHPMYADMIN</span>
+									<span class="title-text color-gplus-red">PHPMYADMIN</span>
 									<ul class="menu-item-list clearfix">
 										<li><a href="#!">Phpmyadmin</a></li>
 										<li><a href="#!">Phpmyadmin</a></li>

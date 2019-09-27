@@ -32,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
           <div class="tab-pane active" id="home">
             <div class="row">
               <div class="col-md-3">
-                <div class=" product-item">
+                <div class="product-item">
                   <div class="image-container mb-20">
                     <a href="#">
                       <div class="product-Image">

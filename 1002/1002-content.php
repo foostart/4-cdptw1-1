@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="module-1002">
 	<div class="container">
-		<div class="row mb-20">
+		<div class="row">
 				<div class="col-md-4">
 					<img src="images/rowb-1.jpg" alt="hinh">
 				</div>	

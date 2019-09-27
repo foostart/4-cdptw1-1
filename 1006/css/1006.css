@@ -1,33 +1,33 @@
-.type-21 .all-products .nav.nav-tabs {
+.type-21 .all-products .nav-tabs {
   border-bottom: none;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.type-21 .all-products .nav.nav-tabs li a:hover {
+.type-21 .all-products .nav-tabs li a:hover {
   background-color: transparent !important;
 }
-.type-21 .all-products .nav.nav-tabs li a .fa {
+.type-21 .all-products .nav-tabs li a .fa {
   border: 1px solid #444444;
   padding: 13px;
   background: #444444;
   color: #fff;
 }
-.type-21 .all-products .nav.nav-tabs li a .fa.fa-shopping-bag,
-.type-21 .all-products .nav.nav-tabs li a .fa .fa-heart-o,
-.type-21 .all-products .nav.nav-tabs li a .fa .fa-eye {
+.type-21 .all-products .nav-tabs li a .fa.fa-shopping-bag,
+.type-21 .all-products .nav-tabs li a .fa .fa-heart-o,
+.type-21 .all-products .nav-tabs li a .fa .fa-eye {
   color: #5C5B50;
 }
-.type-21 .all-products .nav.nav-tabs li.orderby .slect {
+.type-21 .all-products .nav-tabs li.orderby .slect {
   padding: 10px;
 }
-.type-21 .all-products .nav.nav-tabs li:hover a {
+.type-21 .all-products .nav-tabs li:hover a {
   cursor: pointer;
 }
-.type-21 .all-products .nav.nav-tabs li:hover a i {
+.type-21 .all-products .nav-tabs li:hover a i {
   opacity: 0.6;
 }
-.type-21 .all-products .nav.nav-tabs li.active a i {
+.type-21 .all-products .nav-tabs li.active a i {
   opacity: 0.6;
 }
 .type-21 .all-products .tab-content {
@@ -107,12 +107,16 @@
 .type-21 .all-products .tab-content #gird .products .item .chu2 .icon-fa i.fa:hover {
   background: #E24545;
 }
-.type-21 .all-products .nav-tabs>li.active>a,
-.type-21 .all-products .nav-tabs>li.active>a:focus,
-.type-21 .all-products .nav-tabs>li.active>a:hover {
+.type-21 .all-products nav-tabs li.active a {
   border: none;
 }
-.type-21 .all-products .nav-tabs>li>a {
+.type-21 .all-products nav-tabs li.active a:focus {
+  border: none;
+}
+.type-21 .all-products nav-tabs li.active a:hover {
+  border: none;
+}
+.type-21 .all-products .nav-tabs li a {
   border: none;
 }
 @media (max-width: 768px) {
@@ -123,12 +127,12 @@
   .type-21 .all-products .tab-content #list .products .item .chu2 {
     text-align: center !important;
   }
-  .type-21 .all-products .nav.nav-tabs li:hover a {
+  .type-21 .all-products li:hover a {
     cursor: pointer;
   }
 }
 @media (max-width: 1024px) {
-  .type-21 .all-products .nav.nav-tabs li:hover a {
+  .type-21 .all-products li:hover a {
     cursor: pointer;
   }
 }

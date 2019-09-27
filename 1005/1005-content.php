@@ -12,12 +12,10 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-23">
-
     <div class="container">
         <!--HERDER-->
          <div class="row">
         <section id="demos">
-           
                 <div class="chu1 columns">
                     <div class="chu2">
                         <span class="bran">BRANDS</span>
