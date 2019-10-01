@@ -69,19 +69,11 @@
 			>.menu-item-has-children {
 				>a {
 					position: relative;
-					&:after {
-						right: 0;
-						top: 11px;
-						content: '\f054';
-						font-weight: 900;
-						position: absolute;
-						font-family: 'Font Awesome 5 Free';
-					}
+					
 				}
 			}
 
 			.menu-item-has-children{
-				&.has-mega-menu {
 				position: relative;
 				>.mega-menu {
 				margin:0;
@@ -144,21 +136,20 @@
 					}
 				}
 
-			}
+			
 			}
 		}
 	}
 }
 @media (max-width: 991px) {
 .type-4{
-.all-departments-menu >ul .menu-item-has-children{
-&.has-mega-menu >.mega-menu{
+.all-departments-menu >ul .menu-item-has-children{ .mega-menu{
 	left:0 !important;
 	width:100% !important;
 }
 }
 .all-departments-menu >ul .menu-item-has-children{
-&.has-mega-menu >.mega-menu >li{
+.mega-menu >li{
 	width:100% !important;
 }
 }

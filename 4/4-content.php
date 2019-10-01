@@ -21,8 +21,8 @@ $url_path = str_replace('\\', '/', $url_path);
 						Admin Menu
 					</div>
 					<ul class="clearfix">
-						<li class="menu-item-has-children has-mega-menu">
-							<a href="#!"><i class="icon-home"></i>Dashboard</a>
+						<li class="menu-item-has-children">
+							<a href="#!"> <i class="fa fa-home" aria-hidden="true"></i>Dashboard <i style="float:right;margin:0" class="fa fa-angle-right" aria-hidden="true"></i></a>
 							<ul class="mega-menu clearfix" style="background-image: url(images/1.jpg);">
 								<li>
 									<span class="title-text color-gplus-red">FAQ's</span>
@@ -59,10 +59,11 @@ $url_path = str_replace('\\', '/', $url_path);
 								</li>
 							</ul>
 						</li>
-						<li ><a href="#!"><i class="icon-envelope"></i>Messages <span class="badge badge-info">10</span> </a></li>
-						<li ><a href="#!"> <i class="icon-comment"></i>Comments <span class="badge badge-info">4</span></a></li>
-						<li><a href="#!">  <i class="icon-user"></i>Settings</a></li>
-						<li><a href="#!"><i class="icon-share"></i>Logout</a></li>
+						<li ><a href="#!"><i class="fa fa-envelope" aria-hidden="true"></i>Messages <span class="badge badge-info">10</span> </a></li>
+						<li ><a href="#!"><i class="fa fa-comment" aria-hidden="true"></i>Comments <span class="badge badge-info">4</span></a></li>
+						<li><a href="#!"> <i class="fa fa-user" aria-hidden="true"></i>Settings</a></li>
+						<li><a href="#!"><i class="fa fa-sign-out" aria-hidden="true"></i>
+Logout</a></li>
 						
 					</ul>
 				</div>
