@@ -64,7 +64,7 @@
   top: 0;
   left: 240px;
   opacity: 0;
-  width: 1000px;
+  width: 990px;
   z-index: 999;
   height: auto;
   padding: 15px;
@@ -109,6 +109,7 @@
   font-weight: 400;
   color: #ccc;
   text-transform: capitalize;
+  text-decoration: none;
 }
 .type-4 .all-departments-menu >ul .menu-item-has-children >.mega-menu >li >.menu-item-list >li >a:hover {
   color: red;
@@ -121,6 +122,8 @@
   .type-4 .all-departments-menu >ul .menu-item-has-children .mega-menu {
     left: 0 !important;
     width: 100% !important;
+    background-size: contain;
+    background-position: bottom;
   }
   .type-4 .all-departments-menu >ul .menu-item-has-children .mega-menu >li {
     width: 100% !important;

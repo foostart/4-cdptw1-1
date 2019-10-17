@@ -25,7 +25,7 @@ $url_path = str_replace('\\', '/', $url_path);
           <li><a href="#messages">Carrier Phones</a></li>
           <li><a href="#settings">Cases</a></li>
           <li><a href="#profile">Exclusive Phones</a></li>
-          <li><a href="#messages">Unlocked Phones</a></li>
+          
         </ul>
 
         <div class="tab-content">
@@ -36,7 +36,16 @@ $url_path = str_replace('\\', '/', $url_path);
                   <div class="image-container mb-20">
                     <a href="#">
                       <div class="product-Image">
+                        <div class="post-labels">
+                          <ul class="clearfix">
+                            <li class="bg-danger">-50%</li>
+                          </ul>
+                        </div>
                         <img src="http://<?php echo $url_path ?>/images/3.jpg">
+<a href="#!" class="quick-view">
+                       
+                        quick view
+                      </a>
                       </div>
                     </a>  
                   </div>
@@ -46,6 +55,8 @@ $url_path = str_replace('\\', '/', $url_path);
                       <del class="price-compare">$560.00</del>
                       <span class="price-sale">$500</span>
                     </div>
+
+               
                   </div>
                 </div>
               </div>
@@ -54,7 +65,16 @@ $url_path = str_replace('\\', '/', $url_path);
                   <div class="image-container mb-20">
                     <a href="#">
                       <div class="product-Image">
+                         <div class="post-labels">
+                          <ul class="clearfix">
+                            <li class="bg-danger">-50%</li>
+                          </ul>
+                        </div>
                         <img src="http://<?php echo $url_path ?>/images/1.jpg">
+                        <a href="#!" class="quick-view">
+                        
+                        quick view
+                      </a>
                       </div>
                     </a>  
                   </div>
@@ -72,7 +92,16 @@ $url_path = str_replace('\\', '/', $url_path);
                   <div class="image-container mb-20">
                     <a href="#">
                       <div class="product-Image">
+                         <div class="post-labels">
+                          <ul class="clearfix">
+                            <li class="bg-danger">-50%</li>
+                          </ul>
+                        </div>
                         <img src="http://<?php echo $url_path ?>/images/4.jpg">
+                        <a href="#!" class="quick-view">
+                        
+                        quick view
+                      </a>
                       </div>
                     </a>  
                   </div>
@@ -91,6 +120,10 @@ $url_path = str_replace('\\', '/', $url_path);
                     <a href="#">
                       <div class="product-Image">
                         <img src="http://<?php echo $url_path ?>/images/2.jpg">
+                        <a href="#!" class="quick-view">
+                        
+                        quick view
+                      </a>
                       </div>
                     </a>  
                   </div>
@@ -409,82 +442,7 @@ $url_path = str_replace('\\', '/', $url_path);
           </div>
         </div>
       </div>
-      <div class="tab-pane" id="messages">
-        <div class="row">
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
 </div>

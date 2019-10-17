@@ -36,47 +36,106 @@ $url_path = str_replace('\\', '/', $url_path);
 					<div id="gird" class="tab-pane fade in active">
 						<div class="col-md-4 products">
 							<div class="item">
+								<div class="post-labels">
+                          <ul class="clearfix">
+                            <li class="bg-danger">-50%</li>
+                          </ul>
+                        </div>
 								<a href="#"><img src="images/1.jpg" alt="anh"></a>
 								<div class="chu2">
 									<a href="#" class="chu1">APPLE IPHONE 6S PLUS</a><br>
 									<del>£600.00 </del> <strong class="gia"> £560.00</strong>
 									<div class="clearfix"></div>
-									<div class="icon-fa">
+									<ul class="icon-fa">
+										<li><a href="#">
 										<i class="fa fa-eye" aria-hidden="true"></i>
+									</a></li>
+									<li><a href="#">
 										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										</a></li>
+										<li><a href="#">
 										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-									</div>
+										</a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
 
 						<div class="col-md-4 products">
 							<div class="item">
+								<div class="post-labels">
+                          <ul class="clearfix">
+                            <li class="bg-danger">-50%</li>
+                          </ul>
+                        </div>
 								<a href="#"><img src="images/7.jpg" alt="anh"></a>
 								<div class="chu2">
 									<a href="#" class="chu1">BLU VIVO 5 SMARTPHONE</a><br>
 									<strong class="gia"> £875.00</strong>
 									<div class="clearfix"></div>
-									<div class="icon-fa">
+									<ul class="icon-fa">
+										<li><a href="#">
 										<i class="fa fa-eye" aria-hidden="true"></i>
+									</a></li>
+									<li><a href="#">
 										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										</a></li>
+										<li><a href="#">
 										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-									</div>
+										</a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 products">
 							<div class="item">
+								<div class="post-labels">
+                          <ul class="clearfix">
+                            <li class="bg-danger">-50%</li>
+                          </ul>
+                        </div>
+								<a href="#"><img src="images/7.jpg" alt="anh"></a>
+								<div class="chu2">
+									<a href="#" class="chu1">BLU VIVO 5 SMARTPHONE</a><br>
+									<strong class="gia"> £875.00</strong>
+									<div class="clearfix"></div>
+									<ul class="icon-fa">
+										<li><a href="#">
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									</a></li>
+									<li><a href="#">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										</a></li>
+										<li><a href="#">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 products">
+							<div class="item">
+								<div class="post-labels">
+                          <ul class="clearfix">
+                            <li class="bg-danger">-50%</li>
+                          </ul>
+                        </div>
 								<a href="#"><img src="images/3.jpg" alt="anh"></a>
 								<div class="chu2">
 									<a href="#" class="chu1">HUAWEI NEXUS 6P</a><br>
 									<strong class="gia"> £875.00</strong>
 									<div class="clearfix"></div>
-									<div class="icon-fa">
+									<ul class="icon-fa">
+										<li><a href="#">
 										<i class="fa fa-eye" aria-hidden="true"></i>
+									</a></li>
+									<li><a href="#">
 										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										</a></li>
+										<li><a href="#">
 										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-									</div>
+										</a></li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -102,11 +161,17 @@ $url_path = str_replace('\\', '/', $url_path);
 											Hiệu năng mạnh mẽ hàng đầu
 										iPad Mini 7.9 inch Wifi Cellular 64GB (2019) được Apple trang bị hiệu năng rất ấn tượng với con chip Apple A12 cùng RAM 3 GB và 64 GB bộ nhớ trong.</p></div>
 										<div class="clearfix"></div>
-										<div class="icon-fa">
-											<i class="fa fa-eye" aria-hidden="true"></i>
-											<i class="fa fa-heart-o" aria-hidden="true"></i>
-											<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-										</div>
+										<ul class="icon-fa">
+										<li><a href="#">
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									</a></li>
+									<li><a href="#">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										</a></li>
+										<li><a href="#">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										</a></li>
+									</ul>
 									</div>
 								</div>
 							</div>
@@ -130,11 +195,17 @@ $url_path = str_replace('\\', '/', $url_path);
 											Hiệu năng mạnh mẽ hàng đầu
 										iPad Mini 7.9 inch Wifi Cellular 64GB (2019) được Apple trang bị hiệu năng rất ấn tượng với con chip Apple A12 cùng RAM 3 GB và 64 GB bộ nhớ trong.</p></div>
 										<div class="clearfix"></div>
-										<div class="icon-fa">
-											<i class="fa fa-eye" aria-hidden="true"></i>
-											<i class="fa fa-heart-o" aria-hidden="true"></i>
-											<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-										</div>
+										<ul class="icon-fa">
+										<li><a href="#">
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									</a></li>
+									<li><a href="#">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										</a></li>
+										<li><a href="#">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										</a></li>
+									</ul>
 									</div>
 								</div>
 							</div>
@@ -158,11 +229,17 @@ $url_path = str_replace('\\', '/', $url_path);
 											Hiệu năng mạnh mẽ hàng đầu
 										iPad Mini 7.9 inch Wifi Cellular 64GB (2019) được Apple trang bị hiệu năng rất ấn tượng với con chip Apple A12 cùng RAM 3 GB và 64 GB bộ nhớ trong.</p></div>
 										
-										<div class="icon-fa">
-											<i class="fa fa-eye" aria-hidden="true"></i>
-											<i class="fa fa-heart-o" aria-hidden="true"></i>
-											<i class="fa fa-shopping-bag" aria-hidden="true"></i>
-										</div>
+										<ul class="icon-fa">
+										<li><a href="#">
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									</a></li>
+									<li><a href="#">
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										</a></li>
+										<li><a href="#">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										</a></li>
+									</ul>
 									</div>
 								</div>
 							</div>
