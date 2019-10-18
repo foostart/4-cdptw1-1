@@ -18,433 +18,732 @@ $url_path = str_replace('\\', '/', $url_path);
         <h2>PHONES BY CATEGORIES</h2>
         <hr width="15%" align="left" color="red">
       </div>
-      <div class="products-tab">
-        <ul class="nav nav-tabs products-tab-header" id="myTab">
-          <li class="active"><a href="#home">All products</a></li>
-          <li><a href="#profile">Accessories</a></li>
-          <li><a href="#messages">Carrier Phones</a></li>
-          <li><a href="#settings">Cases</a></li>
-          <li><a href="#profile">Exclusive Phones</a></li>
-          
-        </ul>
+      <div id="featured-section" class="featured-section sec-ptb-60 clearfix">
+        <div class="featured-container">
+          <div class="container">
+            <ul class="nav digital-featured-nav nav nav-tabs">
+              <li ><a class="active "data-toggle="tab" href="#featured">featured</a></li>
+              <li><a data-toggle="tab" href="#best-seller">Best Seller</a></li>
+            </ul>
+          </div>
 
-        <div class="tab-content">
-          <div class="tab-pane active" id="home">
-            <div class="row">
-              <div class="col-md-3">
+          <div class="tab-content">
+<div id="featured" class="tab-pane fade in active show">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="product-item">
+                      <div class="post-labels">
+                        <ul class="clearfix">
+                          <li class="bg-primary">new</li>
+                          <li class="bg-danger">-50%</li>
+                        </ul>
+                      </div>
+                      <div class="image-container">
+                        <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                        <a href="#!" class="quick-view">
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                          quick view
+                        </a>
+                      </div>
+                      <div class="item-content text-center">
+                        <a href="#!" class="item-title">Embick Mid-Century Modern Dining Chair</a>
+                        <div class="item-price">
+                          <strong class="color-black">$129.00</strong>
+                          <del>$359.00</del>
+                        </div>
+                      </div>
+                      <div class="hover-content">
+                        <div class="color-options ul-li-center mb-15">
+                          <ul>
+                            <li><a href="#!" class="color-1"></a></li>
+                            <li><a href="#!" class="color-2"></a></li>
+                            <li><a href="#!" class="color-3"></a></li>
+                          </ul>
+                        </div>
+                        <a href="#!" class="add-to-cart">
+                         <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                         add to cart
+                       </a>
+                       <div class="product-meta ul-li-center">
+                        <ul class="clearfix">
+                          <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                          <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-item">
+                    <div class="post-labels">
+                      <ul class="clearfix">
+                        <li class="bg-primary">new</li>
+                        <li class="bg-danger">-50%</li>
+                      </ul>
+                    </div>
+                    <div class="image-container">
+
+                      <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                      <a href="#!" class="quick-view">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                        quick view
+                      </a>
+                    </div>
+                    <div class="item-content text-center">
+                      <a href="#!" class="item-title">Nokia 7.2</a>
+                      <div class="item-price">
+                        <strong class="color-black">$129.00</strong>
+                        <del>$359.00</del>
+                      </div>
+                    </div>
+                    <div class="hover-content">
+                      <div class="color-options ul-li-center mb-15">
+                        <ul>
+                          <li><a href="#!" class="color-1"></a></li>
+                          <li><a href="#!" class="color-2"></a></li>
+                          <li><a href="#!" class="color-3"></a></li>
+                        </ul>
+                      </div>
+                      <a href="#!" class="add-to-cart">
+                       <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                       add to cart
+                     </a>
+                     <div class="product-meta ul-li-center">
+                      <ul class="clearfix">
+                        <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                        <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="product-item">
-                  <div class="image-container mb-20">
-                    <a href="#">
-                      <div class="product-Image">
-                        <div class="post-labels">
-                          <ul class="clearfix">
-                            <li class="bg-danger">-50%</li>
-                          </ul>
-                        </div>
-                        <img src="http://<?php echo $url_path ?>/images/3.jpg">
-<a href="#!" class="quick-view">
-                       
-                        quick view
-                      </a>
-                      </div>
-                    </a>  
+                  <div class="post-labels">
+                    <ul class="clearfix">
+                      <li class="bg-primary">new</li>
+                      <li class="bg-danger">-50%</li>
+                    </ul>
                   </div>
-                  <div class="content-container">
-                    <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                    <div class="product-price mb-20">
-                      <del class="price-compare">$560.00</del>
-                      <span class="price-sale">$500</span>
-                    </div>
+                  <div class="image-container">
 
-               
+                    <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                    <a href="#!" class="quick-view">
+                      <i class="fa fa-eye" aria-hidden="true"></i>
+                      quick view
+                    </a>
+                  </div>
+                  <div class="item-content text-center">
+                    <a href="#!" class="item-title">Nokia 7.2</a>
+                    <div class="item-price">
+                      <strong class="color-black">$129.00</strong>
+                      <del>$359.00</del>
+                    </div>
+                  </div>
+                  <div class="hover-content">
+                    <div class="color-options ul-li-center mb-15">
+                      <ul>
+                        <li><a href="#!" class="color-1"></a></li>
+                        <li><a href="#!" class="color-2"></a></li>
+                        <li><a href="#!" class="color-3"></a></li>
+                      </ul>
+                    </div>
+                    <a href="#!" class="add-to-cart">
+                     <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                     add to cart
+                   </a>
+                   <div class="product-meta ul-li-center">
+                    <ul class="clearfix">
+                      <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                      <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                    </ul>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div class=" product-item">
-                  <div class="image-container mb-20">
-                    <a href="#">
-                      <div class="product-Image">
-                         <div class="post-labels">
-                          <ul class="clearfix">
-                            <li class="bg-danger">-50%</li>
-                          </ul>
-                        </div>
-                        <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                        <a href="#!" class="quick-view">
-                        
-                        quick view
-                      </a>
-                      </div>
-                    </a>  
-                  </div>
-                  <div class="content-container">
-                    <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                    <div class="product-price mb-20">
-                      <del class="price-compare">$560.00</del>
-                      <span class="price-sale">$500</span>
-                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="product-item">
+                <div class="post-labels">
+                  <ul class="clearfix">
+                    <li class="bg-primary">new</li>
+                    <li class="bg-danger">-50%</li>
+                  </ul>
+                </div>
+                <div class="image-container">
+                  <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                  <a href="#!" class="quick-view">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    quick view
+                  </a>
+                </div>
+                <div class="item-content text-center">
+                  <a href="#!" class="item-title">Nokia 7.2</a>
+                  <div class="item-price">
+                    <strong class="color-black">$129.00</strong>
+                    <del>$359.00</del>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-3">
-                <div class=" product-item">
-                  <div class="image-container mb-20">
-                    <a href="#">
-                      <div class="product-Image">
-                         <div class="post-labels">
-                          <ul class="clearfix">
-                            <li class="bg-danger">-50%</li>
-                          </ul>
-                        </div>
-                        <img src="http://<?php echo $url_path ?>/images/4.jpg">
-                        <a href="#!" class="quick-view">
-                        
-                        quick view
-                      </a>
-                      </div>
-                    </a>  
+                <div class="hover-content">
+                  <div class="color-options ul-li-center mb-15">
+                    <ul>
+                      <li><a href="#!" class="color-1"></a></li>
+                      <li><a href="#!" class="color-2"></a></li>
+                      <li><a href="#!" class="color-3"></a></li>
+                    </ul>
                   </div>
-                  <div class="content-container">
-                    <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                    <div class="product-price mb-20">
-                      <del class="price-compare">$560.00</del>
-                      <span class="price-sale">$500</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class=" product-item">
-                  <div class="image-container mb-20">
-                    <a href="#">
-                      <div class="product-Image">
-                        <img src="http://<?php echo $url_path ?>/images/2.jpg">
-                        <a href="#!" class="quick-view">
-                        
-                        quick view
-                      </a>
-                      </div>
-                    </a>  
-                  </div>
-                  <div class="content-container">
-                    <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                    <div class="product-price mb-20">
-                      <del class="price-compare">$560.00</del>
-                      <span class="price-sale">$500</span>
-                    </div>
-                  </div>
+                  <a href="#!" class="add-to-cart">
+                   <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                   add to cart
+                 </a>
+                 <div class="product-meta ul-li-center">
+                  <ul class="clearfix">
+                    <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                    <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div class="tab-pane" id="profile">
-            <div class="row">
-             <div class="col-md-3">
-              <div class=" product-item">
-                <div class="image-container mb-20">
-                  <a href="#">
-                    <div class="product-Image">
-                      <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                    </div>
-                  </a>  
-                </div>
-                <div class="content-container">
-                  <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                  <div class="product-price mb-20">
-                    <del class="price-compare">$560.00</del>
-                    <span class="price-sale">$500</span>
-                  </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="product-item">
+              <div class="post-labels">
+                <ul class="clearfix">
+                  <li class="bg-primary">new</li>
+                  <li class="bg-danger">-50%</li>
+                </ul>
+              </div>
+              <div class="image-container">
+                <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                <a href="#!" class="quick-view">
+                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  quick view
+                </a>
+              </div>
+              <div class="item-content text-center">
+                <a href="#!" class="item-title">Nokia 7.2</a>
+                <div class="item-price">
+                  <strong class="color-black">$129.00</strong>
+                  <del>$359.00</del>
                 </div>
               </div>
-            </div>
-            <div class="col-md-3">
-              <div class=" product-item">
-                <div class="image-container mb-20">
-                  <a href="#">
-                    <div class="product-Image">
-                      <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                    </div>
-                  </a>  
+              <div class="hover-content">
+                <div class="color-options ul-li-center mb-15">
+                  <ul>
+                    <li><a href="#!" class="color-1"></a></li>
+                    <li><a href="#!" class="color-2"></a></li>
+                    <li><a href="#!" class="color-3"></a></li>
+                  </ul>
                 </div>
-                <div class="content-container">
-                  <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                  <div class="product-price mb-20">
-                    <del class="price-compare">$560.00</del>
-                    <span class="price-sale">$500</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class=" product-item">
-                <div class="image-container mb-20">
-                  <a href="#">
-                    <div class="product-Image">
-                      <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                    </div>
-                  </a>  
-                </div>
-                <div class="content-container">
-                  <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                  <div class="product-price mb-20">
-                    <del class="price-compare">$560.00</del>
-                    <span class="price-sale">$500</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class=" product-item">
-                <div class="image-container mb-20">
-                  <a href="#">
-                    <div class="product-Image">
-                      <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                    </div>
-                  </a>  
-                </div>
-                <div class="content-container">
-                  <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                  <div class="product-price mb-20">
-                    <del class="price-compare">$560.00</del>
-                    <span class="price-sale">$500</span>
-                  </div>
-                </div>
-              </div>
-            </div>    
-          </div>
-        </div>
-        <div class="tab-pane" id="messages">
-          <div class="row">
-           <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
+                <a href="#!" class="add-to-cart">
+                 <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                 add to cart
+               </a>
+               <div class="product-meta ul-li-center">
+                <ul class="clearfix">
+                  <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                  <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="product-item">
+            <div class="post-labels">
+              <ul class="clearfix">
+                <li class="bg-primary">new</li>
+                <li class="bg-danger">-50%</li>
+              </ul>
+            </div>
+            <div class="image-container">
+              <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+              <a href="#!" class="quick-view">
+                <i class="fa fa-eye" aria-hidden="true"></i>
+                quick view
+              </a>
+            </div>
+            <div class="item-content text-center">
+              <a href="#!" class="item-title">Nokia 7.2</a>
+              <div class="item-price">
+                <strong class="color-black">$129.00</strong>
+                <del>$359.00</del>
               </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
+            <div class="hover-content">
+              <div class="color-options ul-li-center mb-15">
+                <ul>
+                  <li><a href="#!" class="color-1"></a></li>
+                  <li><a href="#!" class="color-2"></a></li>
+                  <li><a href="#!" class="color-3"></a></li>
+                </ul>
               </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
+              <a href="#!" class="add-to-cart">
+               <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+               add to cart
+             </a>
+             <div class="product-meta ul-li-center">
+              <ul class="clearfix">
+                <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="tab-pane" id="settings">
-        <div class="row">
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="product-item">
+          <div class="post-labels">
+            <ul class="clearfix">
+              <li class="bg-primary">new</li>
+              <li class="bg-danger">-50%</li>
+            </ul>
+          </div>
+          <div class="image-container">
+            <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+            <a href="#!" class="quick-view">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              quick view
+            </a>
+          </div>
+          <div class="item-content text-center">
+            <a href="#!" class="item-title">Nokia 7.2</a>
+            <div class="item-price">
+              <strong class="color-black">$129.00</strong>
+              <del>$359.00</del>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
+          <div class="hover-content">
+            <div class="color-options ul-li-center mb-15">
+              <ul>
+                <li><a href="#!" class="color-1"></a></li>
+                <li><a href="#!" class="color-2"></a></li>
+                <li><a href="#!" class="color-3"></a></li>
+              </ul>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
+            <a href="#!" class="add-to-cart">
+             <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+             add to cart
+           </a>
+           <div class="product-meta ul-li-center">
+            <ul class="clearfix">
+              <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+              <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <div class="tab-pane" id="messages">
-        <div class="row">
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class=" product-item">
-              <div class="image-container mb-20">
-                <a href="#">
-                  <div class="product-Image">
-                    <img src="http://<?php echo $url_path ?>/images/1.jpg">
-                  </div>
-                </a>  
-              </div>
-              <div class="content-container">
-                <div class="product-title mb-20">APPLE IPHONE 6S PLUS</div>
-                <div class="product-price mb-20">
-                  <del class="price-compare">$560.00</del>
-                  <span class="price-sale">$500</span>
-                </div>
-              </div>
-            </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="product-item">
+        <div class="post-labels">
+          <ul class="clearfix">
+            <li class="bg-primary">new</li>
+            <li class="bg-danger">-50%</li>
+          </ul>
+        </div>
+        <div class="image-container">
+          <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+          <a href="#!" class="quick-view">
+            <i class="fa fa-eye" aria-hidden="true"></i>
+            quick view
+          </a>
+        </div>
+        <div class="item-content text-center">
+          <a href="#!" class="item-title">Nokia 7.2</a>
+          <div class="item-price">
+            <strong class="color-black">$129.00</strong>
+            <del>$359.00</del>
           </div>
         </div>
+        <div class="hover-content">
+          <div class="color-options ul-li-center mb-15">
+            <ul>
+              <li><a href="#!" class="color-1"></a></li>
+              <li><a href="#!" class="color-2"></a></li>
+              <li><a href="#!" class="color-3"></a></li>
+            </ul>
+          </div>
+          <a href="#!" class="add-to-cart">
+           <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+           add to cart
+         </a>
+         <div class="product-meta ul-li-center">
+          <ul class="clearfix">
+            <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+            <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
       </div>
-
     </div>
   </div>
+
+</div>
+</div>
+</div>
+
+            <div id="best-seller" class="tab-pane fade in ">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="product-item">
+                      <div class="post-labels">
+                        <ul class="clearfix">
+                          <li class="bg-primary">new</li>
+                          <li class="bg-danger">-50%</li>
+                        </ul>
+                      </div>
+                      <div class="image-container">
+                        <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                        <a href="#!" class="quick-view">
+                          <i class="fa fa-eye" aria-hidden="true"></i>
+                          quick view
+                        </a>
+                      </div>
+                      <div class="item-content text-center">
+                        <a href="#!" class="item-title">Embick Mid-Century Modern Dining Chair</a>
+                        <div class="item-price">
+                          <strong class="color-black">$129.00</strong>
+                          <del>$359.00</del>
+                        </div>
+                      </div>
+                      <div class="hover-content">
+                        <div class="color-options ul-li-center mb-15">
+                          <ul>
+                            <li><a href="#!" class="color-1"></a></li>
+                            <li><a href="#!" class="color-2"></a></li>
+                            <li><a href="#!" class="color-3"></a></li>
+                          </ul>
+                        </div>
+                        <a href="#!" class="add-to-cart">
+                         <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                         add to cart
+                       </a>
+                       <div class="product-meta ul-li-center">
+                        <ul class="clearfix">
+                          <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                          <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-item">
+                    <div class="post-labels">
+                      <ul class="clearfix">
+                        <li class="bg-primary">new</li>
+                        <li class="bg-danger">-50%</li>
+                      </ul>
+                    </div>
+                    <div class="image-container">
+
+                      <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                      <a href="#!" class="quick-view">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                        quick view
+                      </a>
+                    </div>
+                    <div class="item-content text-center">
+                      <a href="#!" class="item-title">Nokia 7.2</a>
+                      <div class="item-price">
+                        <strong class="color-black">$129.00</strong>
+                        <del>$359.00</del>
+                      </div>
+                    </div>
+                    <div class="hover-content">
+                      <div class="color-options ul-li-center mb-15">
+                        <ul>
+                          <li><a href="#!" class="color-1"></a></li>
+                          <li><a href="#!" class="color-2"></a></li>
+                          <li><a href="#!" class="color-3"></a></li>
+                        </ul>
+                      </div>
+                      <a href="#!" class="add-to-cart">
+                       <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                       add to cart
+                     </a>
+                     <div class="product-meta ul-li-center">
+                      <ul class="clearfix">
+                        <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                        <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="product-item">
+                  <div class="post-labels">
+                    <ul class="clearfix">
+                      <li class="bg-primary">new</li>
+                      <li class="bg-danger">-50%</li>
+                    </ul>
+                  </div>
+                  <div class="image-container">
+
+                    <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                    <a href="#!" class="quick-view">
+                      <i class="fa fa-eye" aria-hidden="true"></i>
+                      quick view
+                    </a>
+                  </div>
+                  <div class="item-content text-center">
+                    <a href="#!" class="item-title">Nokia 7.2</a>
+                    <div class="item-price">
+                      <strong class="color-black">$129.00</strong>
+                      <del>$359.00</del>
+                    </div>
+                  </div>
+                  <div class="hover-content">
+                    <div class="color-options ul-li-center mb-15">
+                      <ul>
+                        <li><a href="#!" class="color-1"></a></li>
+                        <li><a href="#!" class="color-2"></a></li>
+                        <li><a href="#!" class="color-3"></a></li>
+                      </ul>
+                    </div>
+                    <a href="#!" class="add-to-cart">
+                     <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                     add to cart
+                   </a>
+                   <div class="product-meta ul-li-center">
+                    <ul class="clearfix">
+                      <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                      <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="product-item">
+                <div class="post-labels">
+                  <ul class="clearfix">
+                    <li class="bg-primary">new</li>
+                    <li class="bg-danger">-50%</li>
+                  </ul>
+                </div>
+                <div class="image-container">
+                  <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                  <a href="#!" class="quick-view">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    quick view
+                  </a>
+                </div>
+                <div class="item-content text-center">
+                  <a href="#!" class="item-title">Nokia 7.2</a>
+                  <div class="item-price">
+                    <strong class="color-black">$129.00</strong>
+                    <del>$359.00</del>
+                  </div>
+                </div>
+                <div class="hover-content">
+                  <div class="color-options ul-li-center mb-15">
+                    <ul>
+                      <li><a href="#!" class="color-1"></a></li>
+                      <li><a href="#!" class="color-2"></a></li>
+                      <li><a href="#!" class="color-3"></a></li>
+                    </ul>
+                  </div>
+                  <a href="#!" class="add-to-cart">
+                   <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                   add to cart
+                 </a>
+                 <div class="product-meta ul-li-center">
+                  <ul class="clearfix">
+                    <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                    <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="product-item">
+              <div class="post-labels">
+                <ul class="clearfix">
+                  <li class="bg-primary">new</li>
+                  <li class="bg-danger">-50%</li>
+                </ul>
+              </div>
+              <div class="image-container">
+                <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+                <a href="#!" class="quick-view">
+                  <i class="fa fa-eye" aria-hidden="true"></i>
+                  quick view
+                </a>
+              </div>
+              <div class="item-content text-center">
+                <a href="#!" class="item-title">Nokia 7.2</a>
+                <div class="item-price">
+                  <strong class="color-black">$129.00</strong>
+                  <del>$359.00</del>
+                </div>
+              </div>
+              <div class="hover-content">
+                <div class="color-options ul-li-center mb-15">
+                  <ul>
+                    <li><a href="#!" class="color-1"></a></li>
+                    <li><a href="#!" class="color-2"></a></li>
+                    <li><a href="#!" class="color-3"></a></li>
+                  </ul>
+                </div>
+                <a href="#!" class="add-to-cart">
+                 <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                 add to cart
+               </a>
+               <div class="product-meta ul-li-center">
+                <ul class="clearfix">
+                  <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                  <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="product-item">
+            <div class="post-labels">
+              <ul class="clearfix">
+                <li class="bg-primary">new</li>
+                <li class="bg-danger">-50%</li>
+              </ul>
+            </div>
+            <div class="image-container">
+              <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+              <a href="#!" class="quick-view">
+                <i class="fa fa-eye" aria-hidden="true"></i>
+                quick view
+              </a>
+            </div>
+            <div class="item-content text-center">
+              <a href="#!" class="item-title">Nokia 7.2</a>
+              <div class="item-price">
+                <strong class="color-black">$129.00</strong>
+                <del>$359.00</del>
+              </div>
+            </div>
+            <div class="hover-content">
+              <div class="color-options ul-li-center mb-15">
+                <ul>
+                  <li><a href="#!" class="color-1"></a></li>
+                  <li><a href="#!" class="color-2"></a></li>
+                  <li><a href="#!" class="color-3"></a></li>
+                </ul>
+              </div>
+              <a href="#!" class="add-to-cart">
+               <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+               add to cart
+             </a>
+             <div class="product-meta ul-li-center">
+              <ul class="clearfix">
+                <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="product-item">
+          <div class="post-labels">
+            <ul class="clearfix">
+              <li class="bg-primary">new</li>
+              <li class="bg-danger">-50%</li>
+            </ul>
+          </div>
+          <div class="image-container">
+            <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+            <a href="#!" class="quick-view">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              quick view
+            </a>
+          </div>
+          <div class="item-content text-center">
+            <a href="#!" class="item-title">Nokia 7.2</a>
+            <div class="item-price">
+              <strong class="color-black">$129.00</strong>
+              <del>$359.00</del>
+            </div>
+          </div>
+          <div class="hover-content">
+            <div class="color-options ul-li-center mb-15">
+              <ul>
+                <li><a href="#!" class="color-1"></a></li>
+                <li><a href="#!" class="color-2"></a></li>
+                <li><a href="#!" class="color-3"></a></li>
+              </ul>
+            </div>
+            <a href="#!" class="add-to-cart">
+             <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+             add to cart
+           </a>
+           <div class="product-meta ul-li-center">
+            <ul class="clearfix">
+              <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+              <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="product-item">
+        <div class="post-labels">
+          <ul class="clearfix">
+            <li class="bg-primary">new</li>
+            <li class="bg-danger">-50%</li>
+          </ul>
+        </div>
+        <div class="image-container">
+          <img src="http://<?php echo $url_path ?>/images/1.jpg" alt="image_not_found">
+          <a href="#!" class="quick-view">
+            <i class="fa fa-eye" aria-hidden="true"></i>
+            quick view
+          </a>
+        </div>
+        <div class="item-content text-center">
+          <a href="#!" class="item-title">Nokia 7.2</a>
+          <div class="item-price">
+            <strong class="color-black">$129.00</strong>
+            <del>$359.00</del>
+          </div>
+        </div>
+        <div class="hover-content">
+          <div class="color-options ul-li-center mb-15">
+            <ul>
+              <li><a href="#!" class="color-1"></a></li>
+              <li><a href="#!" class="color-2"></a></li>
+              <li><a href="#!" class="color-3"></a></li>
+            </ul>
+          </div>
+          <a href="#!" class="add-to-cart">
+           <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+           add to cart
+         </a>
+         <div class="product-meta ul-li-center">
+          <ul class="clearfix">
+            <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+            <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

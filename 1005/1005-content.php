@@ -13,70 +13,55 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-23">
     <div class="container">
-        <!--HERDER-->
-         <div class="row">
-        <section id="demos">
-                <div class="chu1 columns">
-                    <div class="chu2">
-                        <span class="bran">BRANDS</span>
-                        <div class="gach-ngang"></div>
-                    </div>
-                </div>
-                <div class="large-12 columns">
-                    <div class="owl-carousel owl-theme">   
-                       <div class="item">
-                        <h5 class="chu">3DOCEAN</h5>
-
-                    </div>
-                    <div class="item">
-                        <h5 class="chu">3DOCEAN</h5>
-
-                    </div>
-                    <div class="item">
-                        <h5 class="chu">ACTIVEDEN</h5>
-                    </div>
-
-                    <div class="item">
-                        <h5 class="chu">AUDIOJUNGLE</h5>
-                    </div>
-
-                    <div class="item">
-                        <h5 class="chu">CODECANYON</h5>
-                    </div>
-
-                    <div class="item">
-                        <h5 class="chu">PHOTODUNE</h5>
-                    </div>
-                    <div class="item">
-                        <h5 class="chu">THEMEFOREST</h5>
-                    </div>
-                    <div class="item">
-                        <h5 class="chu">VIDEOHIVE</h5>
-                    </div>
-                </div>
-                <script>
-                    $(document).ready(function () {
-                        var owl = $('.owl-carousel');
-                        owl.owlCarousel({
-                            margin: 10,
-                            nav: true,
-                            loop: true,
-                            responsive: {
-                                0: {
-                                    items: 1
-                                },
-                                600: {
-                                    items: 3
-                                },
-                                1000: {
-                                    items: 5
-                                }
-                            }
-                        })
-                    })
-                </script>
-            </div>  
-    </section>
-</div>
+        <div class="row">
+            <div class="section-title">
+                                <h2>BRANDS</h2>
+                            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#!"><img src="http://<?php echo $url_path ?>/images/logo-11.png" alt="image_not_found"></a>
+                      
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="#!"><img src="http://<?php echo $url_path ?>/images/logo-9.png" alt="image_not_found"></a>
+                     
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="#!"><img src="http://<?php echo $url_path ?>/images/logo-12.png" alt="image_not_found"></a>
+                      
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="#!"><img src="http://<?php echo $url_path ?>/images/logo-14.png" alt="image_not_found"></a>
+                     
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="#!"> <img src="http://<?php echo $url_path ?>/images/logo-11.png" alt="image_not_found"></a>
+                     
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="#!"><img src="http://<?php echo $url_path ?>/images/logo-15.png" alt="image_not_found"></a>
+                     
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="#!"><img src="http://<?php echo $url_path ?>/images/logo-12.png" alt="image_not_found"></a>
+                      
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="#!"><img src="http://<?php echo $url_path ?>/images/logo-11.png" alt="image_not_found"></a>
+                      
+                  </div>
+                  <div class="swiper-slide">
+                      <a href="#!"><img src="http://<?php echo $url_path ?>/images/logo-17.png" alt="image_not_found"></a>
+                     
+                  </div>
+                    <!-- Add Arrows -->
+    
+              </div>
+<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+          </div>
+      </div>
+  </div>
 </div>
 

@@ -22,9 +22,8 @@ $less->compileFile('less/1003.less', 'css/1003.css');
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 <link href="<?php echo $url_path ?>/css/1003.css" rel="stylesheet" type="text/css" />
-<link href="<?php echo $url_path ?>/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/> 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
 <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
 <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo $url_path ?>/js/1003.js"></script>

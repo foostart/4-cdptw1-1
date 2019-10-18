@@ -28,12 +28,12 @@ $less->compileFile('less/1005.less', 'css/1005.less');
         $less->compileFile('less/1005.less', 'css/1005.css');
         ?>
         <link href="<?php echo $url_path ?>/css/1005.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/docs.theme.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+      
         <script src="<?php echo $url_path ?>/js/jquery.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/owl.carousel.js" type="text/javascript"></script>
+        <script src="<?php echo $url_path ?>/js/1005.js"></script>
+         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
     </head>
     <body>
       <?php include './1005-content.php'; ?>
