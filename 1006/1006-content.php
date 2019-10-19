@@ -28,7 +28,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                   <div class="col-lg-6 col-md-6 col-sm-12">
                     <form action="#!">
-                      <select class="filter-select storm-select">
+                      <select class="filter-select" >
                         <option value="" disabled>Choose your option</option>
                         <option value="1" selected>Show:   12 Products/Page</option>
                         <option value="2">Option 2</option>
@@ -39,7 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                   <div class="col-lg-4 col-md-6 col-sm-12">
                     <form action="#!">
-                      <select class="filter-select storm-select">
+                      <select class="filter-select ">
                         <option value="" disabled>Choose your option</option>
                         <option value="1" selected>Sort by:   Price: Low to High</option>
                         <option value="2">Option 2</option>
@@ -492,7 +492,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul class="clearfix">
                           <li>
                             <a href="#!" class="add-to-cart">
-                              <i class="flaticon-shopper"></i>
+                             <i class="fa fa-shopping-basket" aria-hidden="true"></i>
                               add to cart
                             </a>
                           </li>
@@ -538,7 +538,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul class="clearfix">
                           <li>
                             <a href="#!" class="add-to-cart">
-                              <i class="flaticon-shopper"></i>
+                             <i class="fa fa-shopping-basket" aria-hidden="true"></i>
                               add to cart
                             </a>
                           </li>
@@ -584,7 +584,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul class="clearfix">
                           <li>
                             <a href="#!" class="add-to-cart">
-                              <i class="flaticon-shopper"></i>
+                              <i class="fa fa-shopping-basket" aria-hidden="true"></i>
                               add to cart
                             </a>
                           </li>
@@ -630,13 +630,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul class="clearfix">
                           <li>
                             <a href="#!" class="add-to-cart">
-                              <i class="flaticon-shopper"></i>
+                              <i class="fa fa-shopping-basket" aria-hidden="true"></i>
                               add to cart
                             </a>
                           </li>
                           <li><a href="#!"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
                               <li><a href="#!"><i class="fa fa-bar-chart" aria-hidden="true"></i></a></li>
-                          <li><a href="#!"><i class="flaticon-libra"></i></a></li>
+                          <li><a href="#!"><i class="fa fa-bar-chart"></i></a></li>
                         </ul>
                       </div>
                     </div>
@@ -677,7 +677,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <ul class="clearfix">
                           <li>
                             <a href="#!" class="add-to-cart">
-                              <i class="flaticon-shopper"></i>
+                             <i class="fa fa-shopping-basket" aria-hidden="true"></i>
                               add to cart
                             </a>
                           </li>
@@ -702,7 +702,7 @@ $url_path = str_replace('\\', '/', $url_path);
                   <div class="col-lg-6 col-md-6 col-sm-12" style="display: flex;
     align-items: center;">
                     <form action="#!">
-                      <select class="filter-select storm-select">
+                      <select class="filter-select ">
                         <option value="" disabled>Choose option</option>
                         <option value="1" selected>Show 12</option>
                         <option value="2">Option 2</option>

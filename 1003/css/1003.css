@@ -193,9 +193,6 @@
 .module-1003 .post-labels ul .bg-primary:after {
   border-right: 8px solid #007bff;
 }
-.module-1003 .post-labels ul .bg-success:after {
-  border-right: 8px solid #28a745;
-}
 .module-1003 .post-labels ul .bg-danger:after {
   border-right: 8px solid #dc3545;
 }
@@ -236,6 +233,9 @@
   text-decoration: none !important;
   color: #000;
 }
+.module-1003 .color-black {
+  color: black;
+}
 .module-1003 .mb-15 {
   margin-bottom: 15px;
 }
@@ -245,12 +245,5 @@
   }
   .module-1003 .header h2 {
     margin: 0px !important;
-  }
-  .module-1003 .products-tab .products-tab-header li {
-    max-width: 100%;
-    width: 100%;
-  }
-  .module-1003 .products-tab .tab-content .tab-pane .product-item {
-    margin-bottom: 20px;
   }
 }

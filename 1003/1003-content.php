@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <h2>PHONES BY CATEGORIES</h2>
         <hr width="15%" align="left" color="red">
       </div>
-      <div id="featured-section" class="featured-section sec-ptb-60 clearfix">
+      <div id="featured-section" class="featured-section clearfix">
         <div class="featured-container">
           <div class="container">
             <ul class="nav digital-featured-nav nav nav-tabs">
