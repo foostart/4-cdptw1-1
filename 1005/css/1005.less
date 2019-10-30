@@ -1,26 +1,38 @@
-.type-23 .section-title {
-  margin-bottom: 30px;
-  border-bottom: 1px solid #ccc;
+.type-23 {
+  margin-top: 20px;
 }
-.type-23 .section-title h2 {
+.type-23 .brand-section .brand-title {
+  text-align: center;
+}
+.type-23 .brand-section .brand-title span {
+  color: #989898;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.type-23 .brand-section .brand-title h2 {
+  font-size: 22px;
   position: relative;
+  margin: 10px 0;
 }
-.type-23 .section-title h2:after {
+.type-23 .brand-section .brand-title h2:after {
   position: absolute;
   content: '';
-  bottom: -10px;
+  bottom: -10%;
   left: 0;
   width: 100%;
   height: 2px;
   background: red;
-  width: 10%;
 }
-.type-23 .swiper-container {
+.type-23 .brand-section .brand-title p {
+  color: #989898;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.type-23 .brand-section .brand-content .swiper-container {
   width: 100%;
   height: 100%;
-  overflow: inherit;
 }
-.type-23 .swiper-container .swiper-slide {
+.type-23 .brand-section .brand-content .swiper-container .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -39,31 +51,24 @@
   position: relative;
   flex-direction: column;
 }
-.type-23 .swiper-container .swiper-slide a {
+.type-23 .brand-section .brand-content .swiper-container .swiper-slide a {
   height: 120px;
   background: #f5f7f6;
   display: flex;
   padding: 10px;
   align-items: center;
 }
-.type-23 .swiper-container .swiper-button-next {
-  top: -40px;
-  transform: translate(0,-50%);
-  background: #ccc;
+.type-23 .brand-section .brand-content .swiper-container .swiper-button-next {
   width: 40px;
   height: 40px;
 }
-.type-23 .swiper-container .swiper-button-next:after {
+.type-23 .brand-section .brand-content .swiper-container .swiper-button-next:after {
   font-size: 20px;
 }
-.type-23 .swiper-container .swiper-button-prev {
-  top: -40px;
-  transform: translate(-250%,-50%);
-  left: 100%;
-  background: #ccc;
+.type-23 .brand-section .brand-content .swiper-container .swiper-button-prev {
   width: 40px;
   height: 40px;
 }
-.type-23 .swiper-container .swiper-button-prev:after {
+.type-23 .brand-section .brand-content .swiper-container .swiper-button-prev:after {
   font-size: 20px;
 }

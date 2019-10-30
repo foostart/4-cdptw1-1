@@ -58,6 +58,38 @@ $url_path = str_replace('\\', '/', $url_path);
 									</ul>
 								</li>
 							</ul>
+							<ul class="dl-submenu">
+									<li>
+										<a href="#">Men</a>
+										<ul class="dl-submenu">
+											<li><a href="#">Shirts</a></li>
+											<li><a href="#">Jackets</a></li>
+											<li><a href="#">Chinos &amp; Trousers</a></li>
+											<li><a href="#">Jeans</a></li>
+											<li><a href="#">T-Shirts</a></li>
+											<li><a href="#">Underwear</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Women</a>
+										<ul class="dl-submenu">
+											<li><a href="#">Jackets</a></li>
+											<li><a href="#">Knits</a></li>
+											<li><a href="#">Jeans</a></li>
+											<li><a href="#">Dresses</a></li>
+											<li><a href="#">Blouses</a></li>
+											<li><a href="#">T-Shirts</a></li>
+											<li><a href="#">Underwear</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Children</a>
+										<ul class="dl-submenu">
+											<li><a href="#">Boys</a></li>
+											<li><a href="#">Girls</a></li>
+										</ul>
+									</li>
+								</ul>
 						</li>
 						<li ><a href="#!"><i class="fa fa-envelope" aria-hidden="true"></i>Messages <span class="badge badge-info">10</span> </a></li>
 						<li ><a href="#!"><i class="fa fa-comment" aria-hidden="true"></i>Comments <span class="badge badge-info">4</span></a></li>

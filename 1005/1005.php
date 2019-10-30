@@ -27,10 +27,10 @@ $less->compileFile('less/1005.less', 'css/1005.less');
         $less = new lessc;
         $less->compileFile('less/1005.less', 'css/1005.css');
         ?>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/1005.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
         <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
-      
         <script src="<?php echo $url_path ?>/js/jquery.min.js" type="text/javascript"></script>
         <script src="<?php echo $url_path ?>/js/1005.js"></script>
          <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>

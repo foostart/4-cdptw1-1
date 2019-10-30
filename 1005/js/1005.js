@@ -1,6 +1,6 @@
  $( document ).ready(function() {
      var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 5,
+      slidesPerView: 3,
       spaceBetween: 10,
       freeMode: true,
      
@@ -26,11 +26,11 @@
           spaceBetween: 10,
         },
         768: {
-          slidesPerView: 4,
+          slidesPerView: 3,
           spaceBetween: 10,
         },
         1024: {
-          slidesPerView: 5,
+          slidesPerView: 3,
           spaceBetween: 10,
         },
       }
